@@ -3,6 +3,9 @@
     "dockerComposeFile": ["../docker-compose.yml"],
     "service": "app",
     "workspaceFolder": "/workspace",
+    "features": {
+        
+    },
     "customizations": {
         "settings": {
             "terminal.integrated.defaultProfile.linux": "bash"
@@ -13,7 +16,8 @@
                 "ms-azuretools.vscode-docker",
                 "Alexander.errorLens",
                 "esbenp.prettier-vscode",
-                "mtxr.sqltools"
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-mysql"
                 ]
         }
 
