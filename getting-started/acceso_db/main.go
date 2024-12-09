@@ -20,8 +20,6 @@ type Album struct {
 func main() {
 	// Capture connection properties.
 	cfg := mysql.Config{
-		// User:   os.Getenv("DB_USER"),
-		// Passwd: os.Getenv("DB_PASSWORD"),
 		User:   "root",
 		Passwd: "example",
 		Net:    "tcp",
